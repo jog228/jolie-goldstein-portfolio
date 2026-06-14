@@ -20,7 +20,7 @@ function fade({ delay = 0 }: FadeProps = {}) {
 // TODO: Replace all placeholder values below
 const LINKS = [
   { label: 'GitHub', href: 'https://github.com/TODO' },
-  { label: 'LinkedIn', href: 'https://linkedin.com/in/TODO' },
+  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/joliegoldstein/' },
   { label: 'Resume', href: '/resume.pdf' },
   { label: 'hello@TODO.com', href: 'mailto:TODO@email.com' },
 ]
