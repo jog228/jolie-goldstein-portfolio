@@ -1,26 +1,79 @@
 @import "tailwindcss";
 
+/* ─── Semantic color tokens — switch on data-theme="dark" ─── */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --canvas:   #FAF8F3;
+  --surface:  #EFECE3;
+  --ink:      #1C1B18;
+  --muted:    #6E6B63;
+  --hairline: #E3DFD6;
+  --accent:   #2D52F5;
 }
 
+:root[data-theme="dark"] {
+  --canvas:   #15140F;
+  --surface:  #1F1D18;
+  --ink:      #F2EDE3;
+  --muted:    #968F82;
+  --hairline: #2C2A24;
+  --accent:   #6E89FF;
+}
+
+/* ─── Expose semantic tokens to Tailwind as utilities ─────── */
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-canvas:   var(--canvas);
+  --color-surface:  var(--surface);
+  --color-ink:      var(--ink);
+  --color-muted:    var(--muted);
+  --color-hairline: var(--hairline);
+  --color-accent:   var(--accent);
+
+  --font-display: var(--font-fraunces);
+  --font-sans:    var(--font-inter);
+  --font-mono:    var(--font-jetbrains-mono);
+
+  --text-2xs: 0.6875rem;   /* 11px — mono labels */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* ─── Base ────────────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--canvas);
+  color: var(--ink);
+  font-family: var(--font-inter), system-ui, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  min-height: 100dvh;
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
+
+/* ─── Focus — visible only on keyboard navigation ────────── */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* ─── Selection ───────────────────────────────────────────── */
+::selection {
+  background-color: var(--accent);
+  color: #fff;
+}
+
+/* ─── Scrollbar — minimal chrome ─────────────────────────── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--hairline); border-radius: 3px; }
