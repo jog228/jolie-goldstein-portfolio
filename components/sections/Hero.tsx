@@ -35,7 +35,7 @@ export function Hero() {
           className="font-mono text-2xs tracking-widest uppercase text-muted mb-10"
         >
           {/* TODO: Update availability status */}
-          Available for work · 2025
+          Available for work · 2026
         </motion.p>
 
         {/* Name — fluid display type */}
