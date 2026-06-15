@@ -23,18 +23,27 @@ export const internship: Internship = {
 
 export const leadership: LeadershipItem[] = [
   {
-    role: "President (previously Treasurer)",
+    role: "President",
     organization: "Lehigh AI Club",
-    dates: "Aug 2025 – Present",
+    dates: "May 2026 – Present",
   },
-  {
-    role: "Student Engagement Officer",
-    organization: "Women in Computer Science (WiCS)",
-    dates: "Aug 2025 – Present",
-  },
+
   {
     role: "ChatCSE Ambassador",
     organization: "Lehigh CSE Department",
     dates: "Oct 2025 – Present",
   },
+
+  {
+    role: "Student Engagement Officer",
+    organization: "Women in Computer Science (WiCS)",
+    dates: "Aug 2025 – Present",
+  },
+
+  {
+    role: "Treasurer",
+    organization: "Lehigh AI Club",
+    dates: "Aug 2025 – Apri 2026",
+  },
+
 ]
