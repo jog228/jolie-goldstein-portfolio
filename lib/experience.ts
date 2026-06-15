@@ -37,7 +37,7 @@ export const leadership: LeadershipItem[] = [
 
   {
     role: "Student Engagement Officer",
-    organization: "Women in Computer Science (WiCS)",
+    organization: "Lehigh Women in Computer Science (WiCS)",
     dates: "Aug 2025 – Present",
   },
 
