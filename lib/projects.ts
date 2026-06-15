@@ -50,6 +50,23 @@ export const projects: Project[] = [
     },
   },
 
+  {
+    id: "81-north",
+    title: "81 North",
+    year: 2024,
+    role: "Website Designer",
+    tags: ["Web Design", "Branding", "Content Strategy"],
+    summary:
+      "Brand identity and a multi-page marketing site for an AI-driven recruitment startup, designed and maintained end to end.",
+    problem:
+      "81 North needed a credible, professional web presence to introduce an AI-driven recruitment service to two very different audiences at once: job seekers looking for roles and companies looking to hire. The small team also needed a site they could keep current on their own, without a developer on call for every change.",
+    process:
+      "I designed the brand, including the logo, and built out the full site: home, services, separate job-seeker and hiring pages, interview coaching, and a blog. I structured the pages around the two audiences the business serves, keeping the message clear and distinct for each. I built it on a no-code platform on purpose, so the team could update content and publish new posts themselves rather than depending on a developer for every change. The result is a live business site the company maintains on its own.",
+    link: {
+      label: "Visit site",
+      href: "https://81north.ai/",
+    },
+  },
   // TODO: Add your second project
   // {
   //   id: "project-2",
