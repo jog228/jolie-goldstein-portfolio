@@ -22,7 +22,7 @@ const LINKS = [
   { label: 'GitHub', href: 'https://github.com/jog228' },
   { label: 'LinkedIn', href: 'https://www.linkedin.com/in/joliegoldstein/' },
   { label: 'Resume', href: '/resume.pdf' },
-  { label: 'Email', href: 'mailto:jog228@lehigh.edu' },
+  { label: 'Email', href: 'mailto:joliegoldstein@icloud.com' },
 ]
 
 export function Hero() {

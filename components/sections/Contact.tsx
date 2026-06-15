@@ -28,10 +28,10 @@ export function Contact() {
               <div className="space-y-4">
                 {}
                 <a
-                  href="mailto:jog228@lehigh.edu"
+                  href="mailto:joliegoldstein@icloud.com"
                   className="group inline-flex items-center gap-1.5 font-display font-bold text-ink text-2xl sm:text-3xl tracking-tight hover:text-accent transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-canvas rounded-sm"
                 >
-                  hello@TODO.com
+                  joliegoldstein@icloud.com
                   <ArrowUpRight
                     size={20}
                     className="transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
