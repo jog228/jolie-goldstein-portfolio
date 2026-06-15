@@ -27,7 +27,7 @@ export const projects: Project[] = [
     process:
       "I joined MathPal for its second round of usability testing, when the tool went into real classrooms including three 9th-grade teachers and 78 Algebra I students using it for a month. I ran in-school usability interviews, sitting with students and teachers after they'd actually used MathPal to find out what was landing and what wasn't. That's where the most useful feedback came from: students wanted a stuck detection feature that would notice when they were struggling, while teachers wanted more control over managing access during assessments, uploading their own worksheets, seeing analytics on how students were interacting with the tool. I co-authored the published findings, *Exploring User-Centered Design and Usability Testing of MathPal,* in the *Journal of Applied Instructional Design*.",
     link: {
-      label: "VRead publication",
+      label: "Read publication",
       href: "https://jaid.edtechbooks.org/jaid_15_2/swrcpddcag",
     },
   },
