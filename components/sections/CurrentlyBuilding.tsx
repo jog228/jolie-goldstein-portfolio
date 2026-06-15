@@ -82,7 +82,7 @@ export function CurrentlyBuilding() {
             </h2>
             {username && status === 'ok' && (
               <a
-                href={`https://github.com/${username}`}
+                href={`https://github.com/jog228`}
                 className="inline-flex items-center gap-1 font-mono text-2xs tracking-widest uppercase text-muted border-b border-hairline pb-px hover:text-ink hover:border-ink transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-canvas rounded-sm"
               >
                 @{username}
