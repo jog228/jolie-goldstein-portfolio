@@ -82,7 +82,7 @@ export const projects: Project[] = [
     process:
       "I designed the brand and logo and built the site on WordPress: a clean, three-page presence (home, about, and contact) focused on making a personal, design-forward first impression for prospective travelers. I leaned on my graphic design background to set the visual identity, choosing the type, color, and imagery to feel warm and high-end rather than generic. I built it to be straightforward to maintain, then handed the finished site off to the client to run on her own.",
     link: {
-      label: "Visit site",
+      label: "Visit Your Fine Trip",
       href: "https://yourfinetrip.com/",
     },
   },
