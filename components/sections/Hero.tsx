@@ -22,7 +22,7 @@ const LINKS = [
   { label: 'GitHub', href: 'https://github.com/TODO' },
   { label: 'LinkedIn', href: 'https://www.linkedin.com/in/joliegoldstein/' },
   { label: 'Resume', href: '/resume.pdf' },
-  { label: 'hello@TODO.com', href: 'mailto:TODO@email.com' },
+  { label: 'Email', href: 'jog228@lehigh.edu' },
 ]
 
 export function Hero() {
@@ -34,17 +34,17 @@ export function Hero() {
           {...fade({ delay: 0 })}
           className="font-mono text-2xs tracking-widest uppercase text-muted mb-10"
         >
-          {/* TODO: Update availability status */}
+          {/* Update availability status */}
           Available for work · 2026
         </motion.p>
 
-        {/* Name — fluid display type */}
+        {/* Name */}
         <motion.h1
           {...fade({ delay: 0.08 })}
           className="font-display font-black tracking-tight text-ink leading-[0.93] mb-8"
           style={{ fontSize: 'clamp(3.5rem, 10vw, 8rem)' }}
         >
-          {/* TODO: Your name */}
+          {}
           Jolie<br />Goldstein
         </motion.h1>
 
@@ -53,7 +53,7 @@ export function Hero() {
           {...fade({ delay: 0.16 })}
           className="font-mono text-2xs tracking-widest uppercase text-muted mb-7"
         >
-          Front-End Developer & UX Designer
+          Front-End Developer & UX & User Research
         </motion.p>
 
         {/* Positioning statement */}
@@ -61,9 +61,8 @@ export function Hero() {
           {...fade({ delay: 0.24 })}
           className="text-lg text-ink leading-relaxed max-w-[34rem] mb-14"
         >
-          {/* TODO: One sentence that captures what makes your work yours */}
-          I design and build interfaces where visual precision and systems
-          thinking create products worth remembering.
+          {}
+          I design and build interfaces where clean front-end code meets real user research.
         </motion.p>
 
         {/* Links */}
