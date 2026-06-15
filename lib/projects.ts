@@ -17,7 +17,7 @@ export const projects: Project[] = [
   {
     id: "mathpal",
     title: "MathPal",
-    year: 2024,
+    year: 2025,
     role: "UX Research & Design",
     tags: ["UX Research", "Usability Testing", "Generative AI", "Branding"],
     summary:
@@ -29,6 +29,24 @@ export const projects: Project[] = [
     link: {
       label: "Read publication",
       href: "https://jaid.edtechbooks.org/jaid_15_2/swrcpddcag",
+    },
+  },
+
+  {
+    id: "icodepal",
+    title: "iCodePal",
+    year: 2025,
+    role: "UX Research & Design",
+    tags: ["UX Research", "AI in Education", "Coding Education", "Usability Testing"],
+    summary:
+      "An AI-powered coding companion that gives K-12 learners conceptual and metacognitive support as they learn to program, built for computer science classrooms with the Agastya International Foundation in India.",
+    problem:
+      "In many under-resourced classrooms, computer science is taught by teachers without formal programming training, in large classes with limited time and shared devices. Students learning to code in Scratch get little conceptual feedback, so they fall back on snapping blocks together at random instead of reasoning through the logic. iCodePal set out to put that missing feedback directly into the editor, without replacing the teacher or requiring infrastructure these schools don't have.",
+    process:
+      "I designed and built iCodePal as a Chrome extension that works directly inside Scratch, the block-based editor students use in their first year of coding. The heart of it is a scan-based feedback model: rather than monitoring students constantly, iCodePal only reads their code when they click to ask for help. When they do, it pulls a structured snapshot of their Scratch workspace — control flow, variables, how the blocks connect — and returns guidance right inside the editor, without giving away the answer. I made the on-request choice deliberately, to keep students in control and avoid burying them in unsolicited feedback. Because these classrooms share devices and many students don't have email accounts, I built authentication around teacher-generated class and student codes instead of individual logins, backed by a Firebase database that logs each interaction under anonymized IDs. That let me build a teacher dashboard for creating and managing classes while keeping student data structured for engagement insights — all without anyone needing a personal account. Every one of those decisions came out of fieldwork at the Agastya International Foundation in southern India, where I observed classrooms and talked with teachers about what actually constrains them: large classes, limited time, shared devices, and English-centric interfaces.",
+    link: {
+      label: "Visit iCodePal",
+      href: "https://wordpress.lehigh.edu/icodepal/",
     },
   },
 
