@@ -18,17 +18,17 @@ export const projects: Project[] = [
     id: "mathpal",
     title: "MathPal",
     year: 2024,
-    role: "Lead Designer & Engineer",
-    tags: ["Design Systems", "React", "TypeScript", "Figma"],
+    role: "UX Research & Design",
+    tags: ["UX Research", "Usability Testing", "Generative AI", "Branding"],
     summary:
-      "A token-based component library unifying four product teams across a 200-person SaaS company.",
+      "A generative-AI tutor that gives high school students conceptual and metacognitive math support, refined over two rounds of classroom usability testing with teachers and students.",
     problem:
-      "Four product teams were shipping inconsistent UI — different button styles, conflicting color usage, and duplicated component code scattered across three repos. Users noticed, and it eroded trust in ways that were hard to quantify but easy to feel. Internal estimates put front-end rework at roughly 30% of engineering time.",
+      "Generative-AI tools were arriving in classrooms faster than anyone could tell whether they actually worked for the students using them. MathPal needed to support real math learners (not just demo well) which meant proving its usability and trustworthiness with teachers and students before any classroom rollout.",
     process:
-      "Spent two weeks auditing every component across all products: cataloguing overlap, mapping which patterns were structurally necessary versus incidentally similar. Ran workshops with each team's lead designer to surface constraints that hadn't been written down. The key discovery came early — Product A needed dense, scannable data tables; Product B needed accessible, conversational forms. Neither team's assumptions were compatible with the other's, which meant a single shared component set would fail both.",
+      "I joined MathPal for its second round of usability testing, when the tool went into real classrooms including three 9th-grade teachers and 78 Algebra I students using it for a month. I ran in-school usability interviews, sitting with students and teachers after they'd actually used MathPal to find out what was landing and what wasn't. That's where the most useful feedback came from: students wanted a stuck detection feature that would notice when they were struggling, while teachers wanted more control over managing access during assessments, uploading their own worksheets, seeing analytics on how students were interacting with the tool. I co-authored the published findings, *Exploring User-Centered Design and Usability Testing of MathPal,* in the *Journal of Applied Instructional Design*.",
     link: {
-      label: "View on GitHub",
-      href: "https://github.com/TODO",
+      label: "VRead publication",
+      href: "https://jaid.edtechbooks.org/jaid_15_2/swrcpddcag",
     },
   },
 
