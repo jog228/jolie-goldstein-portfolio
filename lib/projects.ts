@@ -32,7 +32,7 @@ export const projects: Project[] = [
       href: "https://81north.ai/",
     },
   },
-  
+
   {
     id: "mathpal",
     title: "MathPal",
@@ -66,6 +66,24 @@ export const projects: Project[] = [
     link: {
       label: "Visit iCodePal",
       href: "https://wordpress.lehigh.edu/icodepal/",
+    },
+  },
+
+  {
+    id: "your-fine-trip",
+    title: "Your Fine Trip",
+    year: 2025,
+    role: "Website Designer",
+    tags: ["Web Design", "Branding", "Visual Identity"],
+    summary:
+      "Brand identity and website for an independent luxury travel advisor, built freelance from logo to launch.",
+    problem:
+      "An independent travel advisor needed a professional online presence to establish her brand and give prospective clients an easy way to learn about her and get in touch. As a solo business, she needed something polished but simple, a site that made a strong first impression without becoming a maintenance burden.",
+    process:
+      "I designed the brand and logo and built the site on WordPress: a clean, three-page presence (home, about, and contact) focused on making a personal, design-forward first impression for prospective travelers. I leaned on my graphic design background to set the visual identity, choosing the type, color, and imagery to feel warm and high-end rather than generic. I built it to be straightforward to maintain, then handed the finished site off to the client to run on her own.",
+    link: {
+      label: "Visit site",
+      href: "https://yourfinetrip.com/",
     },
   },
 
