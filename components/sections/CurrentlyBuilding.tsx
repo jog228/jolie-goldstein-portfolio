@@ -108,7 +108,7 @@ export function CurrentlyBuilding() {
           <p className="font-mono text-2xs tracking-wide text-muted">
             {/* Silently omit in production if no GITHUB_USERNAME env var is set */}
             Could not load GitHub activity. Make sure{' '}
-            <code className="text-accent">GITHUB_USERNAME</code> is set in{' '}
+            <code className="text-accent">jog228</code> is set in{' '}
             <code className="text-accent">.env.local</code>.
           </p>
         )}
