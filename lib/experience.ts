@@ -43,7 +43,7 @@ export const leadership: LeadershipItem[] = [
   {
     role: "Treasurer",
     organization: "Lehigh AI Club",
-    dates: "Aug 2025 – Apri 2026",
+    dates: "Aug 2025 – April 2026",
   },
 
 ]
