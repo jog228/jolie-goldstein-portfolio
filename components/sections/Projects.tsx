@@ -125,12 +125,6 @@ function ProjectRow({
               <CaseStudySection label="Process">
                 {project.process}
               </CaseStudySection>
-              <CaseStudySection label="Decision">
-                {project.decision}
-              </CaseStudySection>
-              <CaseStudySection label="Outcome">
-                {project.outcome}
-              </CaseStudySection>
 
               {/* Footer actions */}
               <div className="border-t border-hairline pt-6 flex items-center justify-between">
