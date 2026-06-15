@@ -25,7 +25,7 @@ export const internships: Internship[] = [
 export const leadership: LeadershipItem[] = [
   {
     role: "President",
-    organization: "Lehigh AI Club",
+    organization: "AI Club",
     dates: "May 2026 – Present",
   },
 
