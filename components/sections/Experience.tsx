@@ -1,6 +1,6 @@
 import { Container } from '@/components/layout/Container'
 import { ScrollReveal } from '@/components/ui/ScrollReveal'
-import { internship, leadership } from '@/lib/experience'
+import { internships, leadership } from '@/lib/experience'
 
 export function Experience() {
   return (
@@ -17,34 +17,29 @@ export function Experience() {
           </h2>
         </ScrollReveal>
 
-        {/* ── Featured internship ── */}
-        <ScrollReveal delay={0.05}>
-          <div className="border-t border-hairline py-8">
-            <div className="flex items-start gap-6">
-              {/* Indent spacer — aligns with project list numbers */}
-              <span className="font-mono text-2xs tracking-widest uppercase text-muted shrink-0 pt-0.5 select-none w-6" aria-hidden>
-                ↳
-              </span>
-
-              <div className="min-w-0 flex-1">
-                {/* Role */}
-                <p className="text-ink font-medium text-base leading-snug">
-                  {internship.role}
-                </p>
-
-                {/* Org · Location · Dates */}
-                <p className="font-mono text-2xs tracking-widest uppercase text-muted mt-2">
-                  {internship.organization} · {internship.location} · {internship.dates}
-                </p>
-
-                {/* Description */}
-                <p className="text-muted leading-relaxed text-sm mt-4 max-w-[62ch]">
-                  {internship.description}
-                </p>
+        {/* ── Internships ── */}
+        {internships.map((item, i) => (
+          <ScrollReveal key={item.organization} delay={0.05 + i * 0.05}>
+            <div className="border-t border-hairline py-8">
+              <div className="flex items-start gap-6">
+                <span className="font-mono text-2xs tracking-widest uppercase text-muted shrink-0 pt-0.5 select-none w-6" aria-hidden>
+                  ↳
+                </span>
+                <div className="min-w-0 flex-1">
+                  <p className="text-ink font-medium text-base leading-snug">
+                    {item.role}
+                  </p>
+                  <p className="font-mono text-2xs tracking-widest uppercase text-muted mt-2">
+                    {item.organization} · {item.location} · {item.dates}
+                  </p>
+                  <p className="text-muted leading-relaxed text-sm mt-4 max-w-[62ch]">
+                    {item.description}
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-        </ScrollReveal>
+          </ScrollReveal>
+        ))}
 
         {/* ── Leadership list ── */}
         <ul className="list-none mt-4" role="list">

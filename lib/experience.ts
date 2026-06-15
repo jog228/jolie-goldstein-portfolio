@@ -12,14 +12,16 @@ export interface LeadershipItem {
   dates: string
 }
 
-export const internship: Internship = {
-  role: "Application Design & Development Intern",
-  organization: "Federal Reserve Board — Division of Research & Statistics",
-  location: "Washington, DC",
-  dates: "Jun 2026 – Present",
-  description:
-    "Building and supporting SharePoint Online applications for document management and internal communications, on a cross-functional team of UX designers, engineers, and product managers — gathering requirements from stakeholders and turning them into features in an Agile workflow.",
-}
+export const internships: Internship[] = [
+  {
+    role: "Application Design & Development Intern",
+    organization: "Federal Reserve Board — Division of Research & Statistics",
+    location: "Washington, DC",
+    dates: "Jun 2026 – Present",
+    description:
+      "Building and supporting SharePoint Online applications for document management and internal communications, on a cross-functional team of UX designers, engineers, and product managers — gathering requirements from stakeholders and turning them into features in an Agile workflow.",
+  },
+]
 
 export const leadership: LeadershipItem[] = [
   {
