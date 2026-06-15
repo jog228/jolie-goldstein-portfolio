@@ -53,7 +53,7 @@ export function Hero() {
           {...fade({ delay: 0.16 })}
           className="font-mono text-2xs tracking-widest uppercase text-muted mb-7"
         >
-          Front-End Developer & UX & User Research
+          Front-End Developer · UX & User Research
         </motion.p>
 
         {/* Positioning statement */}
