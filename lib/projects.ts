@@ -86,16 +86,4 @@ export const projects: Project[] = [
       href: "https://yourfinetrip.com/",
     },
   },
-
-  // TODO: Add your second project
-  // {
-  //   id: "project-2",
-  //   title: "Project Title",
-  //   year: 2023,
-  //   role: "Your Role",
-  //   tags: ["Tag 1", "Tag 2"],
-  //   summary: "One-line summary for the card view.",
-  //   problem: "...",
-  //   process: "...",
-  // },
 ]
