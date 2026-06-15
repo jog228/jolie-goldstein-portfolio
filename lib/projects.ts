@@ -63,7 +63,7 @@ export const projects: Project[] = [
     process:
       "I designed the brand, including the logo, and built out the full site: home, services, separate job-seeker and hiring pages, interview coaching, and a blog. I structured the pages around the two audiences the business serves, keeping the message clear and distinct for each. I built it on a no-code platform on purpose, so the team could update content and publish new posts themselves rather than depending on a developer for every change. The result is a live business site the company maintains on its own.",
     link: {
-      label: "Visit site",
+      label: "Visit 81 North",
       href: "https://81north.ai/",
     },
   },
