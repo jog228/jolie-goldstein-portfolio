@@ -18,23 +18,26 @@ export function About() {
 
           <ScrollReveal delay={0.1}>
             <div className="space-y-6 text-[1.0625rem] leading-relaxed text-ink">
-              {/* TODO: Replace with your bio — aim for 2–3 short paragraphs */}
+              {}
               <p>
-                I'm a front-end developer and UX designer based in{' '}
-                <span className="text-muted">[TODO: city]</span>. I'm drawn to
-                the intersection where design systems, accessibility, and
-                engineering craft meet — the work that makes everything else
-                more consistent and more humane.
+                I'm a front-end developer and UX designer studying computer science at{' '}
+                <span className="text-muted">Lehigh University</span>, with minors in data
+                science and graphic design. I work where building and research meet, I like
+                writing the code, but I care just as much about what happens when someone who
+                isn't me starts using it.
               </p>
               <p>
-                Before focusing on product design and engineering, I{' '}
-                <span className="text-muted">[TODO: brief background — education, prior work, pivot story]</span>.
-                That path shaped how I think: I care about the reasoning behind
-                decisions as much as the decisions themselves.
+                I'm currently an Application Design & Development intern at the{' '}
+                <span className="text-muted">Federal Reserve Board</span>, building internal
+                applications on a cross-functional team of designers, engineers, and product
+                managers. My work so far has ranged widely, from an AI coding tutor now used
+                in classrooms in <span className="text-muted">India</span> to a peer-reviewed
+                usability study. Across all of it, I've learned to care about the reasoning
+                behind a decision as much as the decision itself, and to design for the person
+                actually using the product rather than the one I imagined.
               </p>
               <p>
-                Outside of work, I{' '}
-                <span className="text-muted">[TODO: hobbies / interests that say something real about you]</span>.
+                Outside of work, I like to stay active, collect vinyl records, and read murder thrillers.
               </p>
             </div>
           </ScrollReveal>
