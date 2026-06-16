@@ -36,7 +36,7 @@ export function Header() {
             href="/"
             className="font-mono text-2xs tracking-widest uppercase text-muted transition-colors hover:text-ink focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-canvas rounded-sm"
           >
-            {/* TODO: Replace with your name or initials */}
+            {}
             JG
           </Link>
 

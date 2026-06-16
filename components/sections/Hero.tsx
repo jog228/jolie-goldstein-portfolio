@@ -21,7 +21,7 @@ function fade({ delay = 0 }: FadeProps = {}) {
 const LINKS = [
   { label: 'GitHub', href: 'https://github.com/jog228' },
   { label: 'LinkedIn', href: 'https://www.linkedin.com/in/joliegoldstein/' },
-  { label: 'Resume', href: '/resume.pdf' },
+  { label: 'Resume', href: 'https://drive.google.com/file/d/1eeR0GXdfQl_hDiM6apwISb8aw_gC_aHQ/view?usp=sharing' },
   { label: 'Email', href: 'mailto:joliegoldstein@icloud.com' },
 ]
 
