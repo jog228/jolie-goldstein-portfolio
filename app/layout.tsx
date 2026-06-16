@@ -25,7 +25,7 @@ const jetbrainsMono = JetBrains_Mono({
 
 // TODO: Update title, description, and other metadata
 export const metadata: Metadata = {
-  title: 'Jolie Goldstein — Front-End Developer & UX Designer',
+  title: 'Jolie Goldstein Portfolio',
   description:
     'Portfolio of Jolie Goldstein, a front-end developer and UX designer who builds products where visual precision and systems thinking meet.',
   openGraph: {
