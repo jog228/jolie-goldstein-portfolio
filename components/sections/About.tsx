@@ -3,7 +3,7 @@ import { ScrollReveal } from '@/components/ui/ScrollReveal'
 
 export function About() {
   return (
-    <section id="about" className="py-24 border-t border-hairline" aria-labelledby="about-heading">
+    <section id="about" className="py-16 md:py-24 border-t border-hairline" aria-labelledby="about-heading">
       <Container>
         <div className="grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-12 md:gap-20">
           <ScrollReveal>

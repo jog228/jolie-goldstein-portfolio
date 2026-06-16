@@ -4,13 +4,13 @@ import { internships, leadership } from '@/lib/experience'
 
 export function Experience() {
   return (
-    <section id="experience" className="py-24 border-t border-hairline" aria-labelledby="experience-heading">
+    <section id="experience" className="py-16 md:py-24 border-t border-hairline" aria-labelledby="experience-heading">
       <Container>
         {/* Heading */}
         <ScrollReveal>
           <h2
             id="experience-heading"
-            className="font-display font-bold text-ink tracking-tight mb-16"
+            className="font-display font-bold text-ink tracking-tight mb-10 md:mb-16"
             style={{ fontSize: 'clamp(2rem, 5vw, 3.5rem)' }}
           >
             Experience

@@ -38,12 +38,12 @@ const SKILL_GROUPS = [
 
 export function Skills() {
   return (
-    <section className="py-24 border-t border-hairline" aria-labelledby="skills-heading">
+    <section className="py-16 md:py-24 border-t border-hairline" aria-labelledby="skills-heading">
       <Container>
         <ScrollReveal>
           <h2
             id="skills-heading"
-            className="font-display font-bold text-ink tracking-tight mb-16"
+            className="font-display font-bold text-ink tracking-tight mb-10 md:mb-16"
             style={{ fontSize: 'clamp(2rem, 5vw, 3.5rem)' }}
           >
             Skills

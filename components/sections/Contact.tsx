@@ -4,7 +4,7 @@ import { ScrollReveal } from '@/components/ui/ScrollReveal'
 
 export function Contact() {
   return (
-    <section id="contact" className="py-24 border-t border-hairline" aria-labelledby="contact-heading">
+    <section id="contact" className="py-16 md:py-24 border-t border-hairline" aria-labelledby="contact-heading">
       <Container>
         <div className="grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-12 md:gap-20">
           <ScrollReveal>
@@ -29,7 +29,7 @@ export function Contact() {
                 {}
                 <a
                   href="mailto:joliegoldstein@icloud.com"
-                  className="group inline-flex items-center gap-1.5 font-display font-bold text-ink text-2xl sm:text-3xl tracking-tight hover:text-accent transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-canvas rounded-sm"
+                  className="group inline-flex items-center gap-1.5 font-display font-bold text-ink text-xl sm:text-3xl tracking-tight hover:text-accent transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-canvas rounded-sm break-all"
                 >
                   joliegoldstein@icloud.com
                   <ArrowUpRight

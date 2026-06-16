@@ -94,7 +94,7 @@ function ProjectRow({
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.2 }}
-              className="font-mono text-2xs tracking-wide text-muted mt-4 pl-12"
+              className="font-mono text-2xs tracking-wide text-muted mt-4 pl-6 sm:pl-12"
             >
               {project.summary}
             </motion.p>
@@ -115,7 +115,7 @@ function ProjectRow({
             transition={{ duration: 0.45, ease: [0.25, 0.1, 0.25, 1] }}
             style={{ overflow: 'hidden' }}
           >
-            <div className="pl-12 pr-0 pb-10">
+            <div className="pl-6 sm:pl-12 pr-0 pb-10">
               {/* Accent mark above case study */}
               <div className="w-5 h-px bg-accent mb-8" />
 
@@ -168,10 +168,10 @@ export function Projects() {
   }
 
   return (
-    <section id="projects" className="py-24">
+    <section id="projects" className="py-16 md:py-24">
       <Container>
         <ScrollReveal>
-          <div className="flex items-baseline justify-between mb-16">
+          <div className="flex items-baseline justify-between mb-10 md:mb-16">
             <h2 className="font-display font-bold text-ink tracking-tight"
               style={{ fontSize: 'clamp(2rem, 5vw, 3.5rem)' }}
             >
@@ -182,6 +182,7 @@ export function Projects() {
             </span>
           </div>
         </ScrollReveal>
+
 
         <ul className="list-none" role="list">
           {projects.map((project, i) => (

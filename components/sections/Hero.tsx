@@ -28,7 +28,7 @@ const LINKS = [
 export function Hero() {
   return (
     <section className="relative flex min-h-[92dvh] flex-col justify-end">
-      <Container className="pb-20 pt-32">
+      <Container className="pb-16 pt-20 sm:pb-20 sm:pt-32">
         {/* Availability badge */}
         <motion.p
           {...fade({ delay: 0 })}
@@ -59,7 +59,7 @@ export function Hero() {
         {/* Positioning statement */}
         <motion.p
           {...fade({ delay: 0.24 })}
-          className="text-lg text-ink leading-relaxed max-w-[34rem] mb-14"
+          className="text-lg text-ink leading-relaxed max-w-[34rem] mb-10 sm:mb-14"
         >
           {}
           I design and build interfaces where clean front-end code meets real user research.

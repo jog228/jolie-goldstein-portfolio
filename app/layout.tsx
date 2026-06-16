@@ -24,17 +24,26 @@ const jetbrainsMono = JetBrains_Mono({
   display: 'swap',
 })
 
-// TODO: Update title, description, and other metadata
 export const metadata: Metadata = {
-  title: 'Jolie Goldstein Portfolio',
+  metadataBase: new URL('https://joliegoldstein.com'),
+  title: {
+    default: 'Jolie Goldstein',
+    template: '%s — Jolie Goldstein',
+  },
   description:
-    'Portfolio of Jolie Goldstein, a front-end developer and UX designer who builds products where visual precision and systems thinking meet.',
+    'Front-end developer and UX designer. I build interfaces where clean code meets real user research.',
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    // TODO: Set your real URL
-    url: 'https://TODO.com',
+    url: 'https://joliegoldstein.com',
     siteName: 'Jolie Goldstein',
+    title: 'Jolie Goldstein',
+    description: 'Front-end developer and UX designer.',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Jolie Goldstein',
+    description: 'Front-end developer and UX designer.',
   },
 }
 
