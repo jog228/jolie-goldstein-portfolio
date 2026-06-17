@@ -38,24 +38,30 @@ export function Press() {
                       {item.title}
                     </p>
 
-                    {/* Pull quote */}
-                    <blockquote className="border-l-2 border-hairline pl-4 mb-5">
-                      <p className="text-muted text-sm leading-relaxed italic">
-                        &ldquo;{item.pullQuote}&rdquo;
+                    {/* Pull quote or author list */}
+                    {item.authors ? (
+                      <p className="font-mono text-2xs tracking-wide text-muted mb-5 leading-relaxed">
+                        {item.authors}
                       </p>
-                      <cite className="not-italic font-mono text-2xs tracking-widest uppercase text-muted mt-2 block">
-                        — {item.attribution}
-                      </cite>
-                    </blockquote>
+                    ) : item.pullQuote ? (
+                      <blockquote className="border-l-2 border-hairline pl-4 mb-5">
+                        <p className="text-muted text-sm leading-relaxed italic">
+                          &ldquo;{item.pullQuote}&rdquo;
+                        </p>
+                        <cite className="not-italic font-mono text-2xs tracking-widest uppercase text-muted mt-2 block">
+                          — {item.attribution}
+                        </cite>
+                      </blockquote>
+                    ) : null}
 
-                    {/* Read link */}
+                    {/* Link */}
                     <a
                       href={item.href}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-1 font-mono text-2xs tracking-widest uppercase text-muted border-b border-hairline pb-px hover:text-accent hover:border-accent transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-canvas rounded-sm"
                     >
-                      Read article
+                      {item.linkLabel ?? 'Read article'}
                       <ArrowUpRight size={10} aria-hidden />
                     </a>
                   </div>
