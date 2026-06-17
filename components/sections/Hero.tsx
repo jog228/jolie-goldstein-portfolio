@@ -20,8 +20,8 @@ function fade({ delay = 0 }: FadeProps = {}) {
 // TODO: Replace all placeholder values below
 const LINKS = [
   { label: 'GitHub', href: 'https://github.com/jog228' },
-  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/joliegoldstein/' },
-  { label: 'Resume', href: 'https://drive.google.com/file/d/1eeR0GXdfQl_hDiM6apwISb8aw_gC_aHQ/view?usp=sharing' },
+  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/joliegoldstein/', target: '_blank' },
+  { label: 'Resume', href: 'https://drive.google.com/file/d/1eeR0GXdfQl_hDiM6apwISb8aw_gC_aHQ/view?usp=sharing', target: '_blank' },
   { label: 'Email', href: 'mailto:joliegoldstein@icloud.com' },
 ]
 
@@ -71,10 +71,12 @@ export function Hero() {
           aria-label="External links"
           className="flex flex-wrap gap-x-8 gap-y-3"
         >
-          {LINKS.map(({ label, href }) => (
+          {LINKS.map(({ label, href, target }) => (
             <Link
               key={label}
               href={href}
+              target={target}
+              rel={target === '_blank' ? 'noopener noreferrer' : undefined}
               className="group inline-flex items-center gap-1 font-mono text-2xs tracking-widest uppercase text-muted border-b border-hairline pb-px transition-colors hover:text-accent hover:border-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-canvas rounded-sm"
             >
               {label}
