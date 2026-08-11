@@ -6,9 +6,8 @@ import { Container } from './Container'
 import { ThemeToggle } from '@/components/ui/ThemeToggle'
 
 const NAV_LINKS = [
-  { label: 'Work', href: '#projects' },
-  { label: 'Experience', href: '#experience' },
   { label: 'About', href: '#about' },
+  { label: 'Experience', href: '#experience' },
   { label: 'Contact', href: '#contact' },
 ]
 

@@ -17,7 +17,6 @@ function fade({ delay = 0 }: FadeProps = {}) {
   }
 }
 
-// TODO: Replace all placeholder values below
 const LINKS = [
   { label: 'GitHub', href: 'https://github.com/jog228' },
   { label: 'LinkedIn', href: 'https://www.linkedin.com/in/joliegoldstein/', target: '_blank' },
@@ -35,7 +34,7 @@ export function Hero() {
           className="font-mono text-2xs tracking-widest uppercase text-muted mb-10"
         >
           {/* Update availability status */}
-          Available for work · 2026
+          Available for Summer 2027 internships
         </motion.p>
 
         {/* Name */}
@@ -53,7 +52,7 @@ export function Hero() {
           {...fade({ delay: 0.16 })}
           className="font-mono text-2xs tracking-widest uppercase text-muted mb-7"
         >
-          Front-End Developer · UX & User Research
+          Full-Stack Developer · UX & User Research
         </motion.p>
 
         {/* Positioning statement */}
@@ -62,7 +61,7 @@ export function Hero() {
           className="text-lg text-ink leading-relaxed max-w-[34rem] mb-10 sm:mb-14"
         >
           {}
-          I design and build interfaces where clean front-end code meets real user research.
+          I build full-stack products end to end and ground the decisions in real user research.
         </motion.p>
 
         {/* Links */}

@@ -1,11 +1,13 @@
 import { Container } from '@/components/layout/Container'
 import { ScrollReveal } from '@/components/ui/ScrollReveal'
 
-// TODO: Edit these lists to reflect your actual skills
 const SKILL_GROUPS = [
   {
     label: 'Engineering',
     items: [
+      'Python',
+      'Flask',
+      'PostgreSQL',
       'TypeScript',
       'React',
       'JavaScript',
@@ -59,7 +61,7 @@ export function Skills() {
                 </p>
                 <ul className="space-y-3 list-none">
                   {group.items.map(skill => (
-                    <li key={skill} className="text-ink text-sm">
+                    <li key={skill} className="text-ink text-base">
                       {skill}
                     </li>
                   ))}
