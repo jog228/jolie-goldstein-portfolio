@@ -48,7 +48,7 @@ export const metadata: Metadata = {
 }
 
 // Runs synchronously before first paint to prevent FOUC
-const themeScript = `(function(){try{var s=localStorage.getItem('theme');var m=window.matchMedia('(prefers-color-scheme:dark)').matches;document.documentElement.setAttribute('data-theme',s||(m?'dark':'light'))}catch(e){}})();`
+const themeScript = `(function(){try{var s=localStorage.getItem('theme');document.documentElement.setAttribute('data-theme',s||'dark')}catch(e){}})();`
 
 export default function RootLayout({
   children,
