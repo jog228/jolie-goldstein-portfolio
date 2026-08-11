@@ -31,19 +31,19 @@ export const metadata: Metadata = {
     template: '%s — Jolie Goldstein',
   },
   description:
-    'Front-end developer and UX designer. I build interfaces where clean code meets real user research.',
+    'Full-stack developer and UX researcher. I build products end to end and ground the decisions in real user research.',
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: 'https://joliegoldstein.com',
     siteName: 'Jolie Goldstein',
     title: 'Jolie Goldstein',
-    description: 'Front-end developer and UX designer.',
+    description: 'Full-stack developer and UX researcher.',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Jolie Goldstein',
-    description: 'Front-end developer and UX designer.',
+    description: 'Full-stack developer and UX researcher.',
   },
 }
 

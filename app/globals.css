@@ -5,7 +5,7 @@
   --canvas:   #FAF8F3;
   --surface:  #EFECE3;
   --ink:      #1C1B18;
-  --muted:    #6E6B63;
+  --muted:    #57544C;   /* 7.1:1 on canvas — was #6E6B63 at 5.0:1 */
   --hairline: #E3DFD6;
   --accent:   #2D52F5;
 }
@@ -14,7 +14,7 @@
   --canvas:   #15140F;
   --surface:  #1F1D18;
   --ink:      #F2EDE3;
-  --muted:    #968F82;
+  --muted:    #A8A192;   /* 7.2:1 on canvas — was #968F82 at 5.8:1 */
   --hairline: #2C2A24;
   --accent:   #6E89FF;
 }
@@ -32,7 +32,7 @@
   --font-sans:    var(--font-inter);
   --font-mono:    var(--font-jetbrains-mono);
 
-  --text-2xs: 0.6875rem;   /* 11px — mono labels */
+  --text-2xs: 0.75rem;   /* 12px — mono labels */
 }
 
 /* ─── Base ────────────────────────────────────────────────── */

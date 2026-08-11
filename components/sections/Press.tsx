@@ -9,14 +9,13 @@ export function Press() {
   return (
     <section className="py-16 md:py-24 border-t border-hairline" aria-labelledby="press-heading">
       <Container>
-        {/* Section label — intentionally lighter than a full h2 heading */}
         <ScrollReveal>
-          <p
+          <h2
             id="press-heading"
-            className="font-mono text-2xs tracking-widest uppercase text-muted mb-10 md:mb-14"
+            className="font-display font-bold text-ink text-xl sm:text-2xl leading-tight tracking-tight mb-10 md:mb-14"
           >
             Press
-          </p>
+          </h2>
         </ScrollReveal>
 
         <ul className="list-none space-y-0" role="list">
@@ -45,7 +44,7 @@ export function Press() {
                       </p>
                     ) : item.pullQuote ? (
                       <blockquote className="border-l-2 border-hairline pl-4 mb-5">
-                        <p className="text-muted text-sm leading-relaxed italic">
+                        <p className="text-muted text-base leading-relaxed italic">
                           &ldquo;{item.pullQuote}&rdquo;
                         </p>
                         <cite className="not-italic font-mono text-2xs tracking-widest uppercase text-muted mt-2 block">

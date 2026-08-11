@@ -19,7 +19,7 @@ export function Contact() {
 
           <ScrollReveal delay={0.1}>
             <div className="space-y-8">
-              <p className="text-[1.0625rem] leading-relaxed text-ink max-w-[48ch]">
+              <p className="text-[1.125rem] leading-relaxed text-ink max-w-[48ch]">
                 {}
                 Whether it's a role, a project, or just a conversation about UX,
                 front-end, or AI - I'm glad to hear from you!
@@ -40,7 +40,6 @@ export function Contact() {
                 </a>
 
                 <div className="flex gap-6 pt-2">
-                  {/* TODO: Add or remove social links */}
                   {[
                     { label: 'GitHub', href: 'https://github.com/jog228' },
                     { label: 'LinkedIn', href: 'https://www.linkedin.com/in/joliegoldstein/' },
