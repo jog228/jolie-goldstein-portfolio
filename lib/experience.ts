@@ -11,6 +11,10 @@ export interface Project {
     label: string
     href: string
   }
+  images?: {
+    src: string
+    alt: string
+  }[]
 }
 
 // Experience — a defined engagement (internship, program, freelance practice).
@@ -55,6 +59,28 @@ export const experience: Experience[] = [
           label: "View on GitHub",
           href: "https://github.com/jog228/intelswap",
         },
+        images: [
+          {
+            src: "/intelswap/home.png",
+            alt: "Intelswap home feed showing posted questions and tags",
+          },
+          {
+            src: "/intelswap/browse-by-tag.png",
+            alt: "Browsing Intelswap posts filtered by tag",
+          },
+          {
+            src: "/intelswap/view-post.png",
+            alt: "An open Intelswap post with comments and code attachments",
+          },
+          {
+            src: "/intelswap/answer-accepted.png",
+            alt: "An Intelswap post with an accepted answer highlighted",
+          },
+          {
+            src: "/intelswap/view-bookmarks.png",
+            alt: "A user's bookmarked posts on their Intelswap profile",
+          },
+        ],
       },
     ],
   },

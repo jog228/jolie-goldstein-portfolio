@@ -3,6 +3,7 @@
 import { useState, useRef } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 import { ArrowUpRight, X } from 'lucide-react'
+import Image from 'next/image'
 import Link from 'next/link'
 import { Container } from '@/components/layout/Container'
 import { ScrollReveal } from '@/components/ui/ScrollReveal'
@@ -23,6 +24,36 @@ function CaseStudySection({
       <p className="text-ink leading-relaxed text-[1.125rem] max-w-[62ch]">
         {children}
       </p>
+    </div>
+  )
+}
+
+function ProjectGallery({
+  images,
+}: {
+  images: NonNullable<Project['images']>
+}) {
+  return (
+    <div className="border-t border-hairline pt-6 pb-6">
+      <h5 className="font-mono text-2xs tracking-widest uppercase text-muted mb-4">
+        Gallery
+      </h5>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        {images.map(image => (
+          <div
+            key={image.src}
+            className="relative aspect-video overflow-hidden rounded-sm border border-hairline"
+          >
+            <Image
+              src={image.src}
+              alt={image.alt}
+              fill
+              sizes="(min-width: 640px) 50vw, 100vw"
+              className="object-cover"
+            />
+          </div>
+        ))}
+      </div>
     </div>
   )
 }
@@ -113,6 +144,10 @@ function ProjectRow({
               <CaseStudySection label="Process">
                 {project.process}
               </CaseStudySection>
+
+              {project.images && project.images.length > 0 && (
+                <ProjectGallery images={project.images} />
+              )}
 
               {/* Footer actions */}
               <div className="border-t border-hairline pt-6 flex items-center justify-between">
