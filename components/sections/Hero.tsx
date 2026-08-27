@@ -20,7 +20,7 @@ function fade({ delay = 0 }: FadeProps = {}) {
 const LINKS = [
   { label: 'GitHub', href: 'https://github.com/jog228' },
   { label: 'LinkedIn', href: 'https://www.linkedin.com/in/joliegoldstein/', target: '_blank' },
-  { label: 'Resume', href: 'https://drive.google.com/file/d/1eeR0GXdfQl_hDiM6apwISb8aw_gC_aHQ/view?usp=sharing', target: '_blank' },
+  { label: 'Resume', href: 'https://docs.google.com/document/d/1jzacYHi_gtQHhQGxOOgZJ5mUwtqrAxjRL5qnE8Ic4N4/edit?usp=sharing', target: '_blank' },
   { label: 'Email', href: 'mailto:joliegoldstein@icloud.com' },
 ]
 
