@@ -196,9 +196,16 @@ export const leadership: LeadershipItem[] = [
   },
 
   {
+    role: "Grader, CSE 216 Software Engineering",
+    organization: "Lehigh CSE Department",
+    dates: "Aug 2026 – Present",
+  },
+
+
+  {
     role: "Student Engagement Officer",
     organization: "Lehigh Women in Computer Science (WiCS)",
-    dates: "Aug 2025 – Present",
+    dates: "Aug 2025 – Aug 2026",
   },
 
   {
