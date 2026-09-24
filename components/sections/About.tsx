@@ -40,7 +40,7 @@ export function About() {
               </p>
               <p>
                 As a sophomore, I was named a{' '}
-                <span className="text-muted">Goldwater Scholarship</span> finalist, which has
+                <span className="text-muted">Goldwater Scholarship</span> nominee, which has
                 shaped my interest in pursuing a PhD or Master's in human-centered computing,
                 HCI, or information science.
               </p>
