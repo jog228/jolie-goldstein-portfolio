@@ -2,6 +2,7 @@ import { Header } from '@/components/layout/Header'
 import { Footer } from '@/components/layout/Footer'
 import { Hero } from '@/components/sections/Hero'
 import { Experience } from '@/components/sections/Experience'
+import { Leadership } from '@/components/sections/Leadership'
 import { About } from '@/components/sections/About'
 import { Skills } from '@/components/sections/Skills'
 import { Press } from '@/components/sections/Press'
@@ -15,8 +16,9 @@ export default function Home() {
         <Hero />
         <About />
         <Experience />
-        <Press />
+        <Leadership />
         <Skills />
+        <Press />
         <Contact />
       </main>
       <Footer />

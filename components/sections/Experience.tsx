@@ -234,20 +234,6 @@ export function Experience() {
           </ScrollReveal>
         ))}
 
-        {/* ── Leadership list ── */}
-        <ul className="list-none mt-4" role="list">
-          {leadership.map((item, i) => (
-            <ScrollReveal key={item.organization} delay={0.1 + i * 0.05}>
-              <li className="border-t border-hairline py-4 flex items-baseline gap-6">
-                <span className="font-mono text-2xs tracking-widest uppercase text-muted shrink-0 select-none w-6" aria-hidden />
-                <p className="font-mono text-2xs tracking-widest uppercase text-muted">
-                  {item.role} · {item.organization} · {item.dates}
-                </p>
-              </li>
-            </ScrollReveal>
-          ))}
-        </ul>
-
         <div className="border-t border-hairline" />
       </Container>
     </section>
