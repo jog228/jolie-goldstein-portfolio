@@ -91,7 +91,7 @@ export const experience: Experience[] = [
     organization: "DiFranzo Lab (Human-Computer Interaction), Lehigh University",
     location: "Bethlehem, PA",
     dates: "Jan 2026 – Present",
-    description: "This ongoing research investigates how giving users control over AI explanation depth affects both cognitive trust and cognitive load when working with AI coding assistants. The planned study uses a between-subjects design, where CS and engineering students will either be assigned a fixed explanation level or given a toggle to choose between minimal, explanatory, and exploratory explanations while completing coding tasks on a custom research platform. Currently in the design and measurement-selection phase, the project treats trust and cognitive load as parallel outcomes of interface design rather than assuming one causes the other.",
+    description: "After spending Spring 2026 on a literature review of trust in human-AI interaction, I'm now using design fiction to explore how people respond when AI enters personal self-presentation. I'm designing a speculative AI-assisted dating profile experience: a realistic but fictional product that lets participants react to an AI-mediated future before it fully exists. Currently in the concept and study-design phase, the project treats the prototype as a research probe, surfacing people's expectations and concerns about authenticity, trust, and control rather than testing a finished tool.",
     projects: [],
   },
 
